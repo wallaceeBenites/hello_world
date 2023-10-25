@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
-:root{
+:root {
     --cor-primaria: #000000;
-    --cor-secundaria:#5800FF;
+    --cor-secundaria: #5800FF;
     --cor-terciaria: #E900FF;
 
     --cor-hover: #f1f1f1;
@@ -11,13 +11,13 @@
     --font-secundaria: 'Montserrat', sans-serif;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 
 }
 
-body{
+body {
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
@@ -27,62 +27,63 @@ body{
     padding: 2% 0% 0% 15%;
 }
 
-.cabecalho__menu{
+.cabecalho__menu {
 
     display: flex;
     gap: 80px;
 }
 
-.cabecalho__menu__link{
+.cabecalho__menu__link {
 
     font-family: var(--font-secundaria);
-    font-size: 28px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
     color: var(--cor-terciaria);
-    
+
 
 }
-.cabecalho__menu__link:hover{
+
+.cabecalho__menu__link:hover {
     color: var(--cor-secundaria);
 }
 
-.apresentacao{
+.apresentacao {
 
-    padding: 5%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 82px;
     justify-content: space-between;
 
 }
 
-.apresentacao__conteudo{
+.apresentacao__conteudo {
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.apresentacao__conteudo__titulo{
+.apresentacao__conteudo__titulo {
     font-size: 2.25rem;
     font-family: var(--font-pricipal);
     font-weight: 400;
 }
 
-.titulo_destaque{
+.titulo_destaque {
     color: var(--cor-terciaria);
 }
 
 
-.apresentacao__conteudo__texto{
+.apresentacao__conteudo__texto {
     font-size: 1.5rem;
     font-family: var(--font-secundaria);
     font-weight: 400;
 
 }
 
-.apresentacao__links{
+.apresentacao__links {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,7 +91,7 @@ body{
     justify-content: space-between
 }
 
-.apresentacao__links__subtitulo{
+.apresentacao__links__subtitulo {
     font-size: 1.5rem;
     font-family: var(--font-pricipal);
     font-weight: 400;
@@ -98,7 +99,7 @@ body{
 
 }
 
-.apresentacao__links__redes_sociais{
+.apresentacao__links__redes_sociais {
 
     display: flex;
     justify-content: center;
@@ -115,7 +116,7 @@ body{
     gap: 16px;
 
 
-   
+
 }
 
 .apresentacao__links__redes_sociais:hover {
@@ -123,9 +124,9 @@ body{
 }
 
 
-.wallace_foto{
+.wallace_foto {
     width: 50%;
-       
+
 }
 
 .rodape {
@@ -133,10 +134,30 @@ body{
     color: var(--cor-primaria);
     padding: 5px;
     text-align: center;
-    font-size: 1rem ;
+    font-size: 1rem;
     font-family: var(--font-secundaria);
     font-weight: 400;
 }
 
+@media (max-width: 1200px) {
+
+    .cabecalho {
+        padding: 3%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
 
 
+
+}
