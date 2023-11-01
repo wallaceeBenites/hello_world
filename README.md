@@ -1,8 +1,15 @@
-<h1> AQUI INICIA O MEU PROJETO </h1>
-
- STATUS : EM PRODUÇÃO 
-
+<h1> Portfolio </h1>
+ Status : Em desenvolvimento
+ 
+````
+html - css - JavaScript
 
 ````
-HTML CSS 
-````
+Site 
+---
+--> https://portifolio-wallace.vercel.app/index.html 
+
+Imagem Previa 
+---
+    <img src="assets/deco_page3_1.JPG">
+

@@ -1,3 +1,4 @@
+/* Estilo principal e pagina 1 e 2  */
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
@@ -50,7 +51,7 @@ body {
 
 .apresentacao {
 
-    padding: 5% 15%;
+    padding: 5% 5%;
     display: flex;
     align-items: center;
     gap: 82px;
@@ -63,6 +64,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    align-items: center;
 }
 
 .apresentacao__conteudo__titulo {
@@ -80,6 +82,15 @@ body {
     font-size: 1.5rem;
     font-family: var(--font-secundaria);
     font-weight: 400;
+    display: flex;
+
+}
+
+.apresentacao__conteudo__Subtitulo_page2{
+    font-size: 2.25rem;
+    font-family: var(--font-pricipal);
+    font-weight: 400;
+    color: var(--cor-terciaria);
 
 }
 
@@ -159,5 +170,64 @@ body {
     }
 
 
+
+}
+
+/* Pagina 3  */
+
+.apresentacao__conteudo__titulo_page3{
+    font-size: 1.25rem;
+    font-family: var(--font-pricipal);
+    font-weight: 400;
+    color: var(--cor-terciaria);
+}
+
+.apresentacao__conteudo__Subtitulo{
+    font-size: 1.25rem;
+    font-family: var(--font-pricipal);
+    font-weight: 400;
+    color: var(--cor-terciaria);
+
+}
+
+.decodificador{
+
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-between
+
+ 
+}
+
+.decodificador_foto{
+    width: 100%;
+    display: flex
+    
+}
+
+.decodificador_link{
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--cor-terciaria);
+    width: 50%;
+    text-align: center;
+    border-radius: 16px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--cor-secundaria);
+    font-weight: 600;
+    font-family: var(--font-secundaria);
+    gap: 16px;
+
+
+}
+
+.decodificador_link:hover{
+
+    background-color: var(--cor-hover);
 
 }
