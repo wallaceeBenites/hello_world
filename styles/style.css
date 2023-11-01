@@ -150,58 +150,7 @@ body {
     font-weight: 400;
 }
 
-@media (max-width: 1200px) {
 
-    .cabecalho {
-        padding: 3%;
-    }
-
-    .cabecalho__menu {
-        justify-content: center;
-    }
-
-    .apresentacao {
-        flex-direction: column-reverse;
-        padding: 5%;
-    }
-
-    .apresentacao__conteudo {
-        width: auto;
-    }
-
-    @media (max-width: 500px) {
-
-
-
-        .cabecalho__menu__link {
-            font-size: 0.5rem;
-        }
-
-        .apresentacao__conteudo__titulo {
-            font-size: 1.25rem;
-        }
-
-        .apresentacao__conteudo__texto {
-            font-size: 0.5rem;
-        }
-
-        .apresentacao__links__subtitulo {
-            font-size: 1rem;
-        }
-
-        .apresentacao__links__redes_sociais {
-            font-size: 0.5rem;
-        }
-
-        @media (max-width: 500px){
-            .apresentacao__conteudo__titulo {
-                font-size: 0.5rem;
-            }
-
-        }
-
-    }
-}
 
 /* Pagina 3  */
 
@@ -257,4 +206,89 @@ body {
 
     background-color: var(--cor-hover);
 
+}
+
+/* Media */
+@media (max-width: 1200px) {
+
+    .cabecalho {
+        padding: 3%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
+    .rodape{
+        font-size: 0.5rem;
+    }
+
+    @media (max-width: 500px) {
+
+
+
+        .cabecalho__menu__link {
+            font-size: 0.5rem;
+        }
+
+        .apresentacao__conteudo__titulo {
+            font-size: 1.25rem;
+        }
+
+        .apresentacao__conteudo__texto {
+            font-size: 0.5rem;
+        }
+
+        .apresentacao__links__subtitulo {
+            font-size: 1rem;
+        }
+
+        .apresentacao__conteudo__Subtitulo_page2{
+
+            font-size: 1.25rem;
+        }
+
+        
+
+        .apresentacao__links__redes_sociais {
+            font-size: 0.5rem;
+        }
+
+        @media (max-width: 500px){
+            .apresentacao__conteudo__titulo {
+                font-size: 0.5rem;
+            }
+
+            .apresentacao__conteudo__Subtitulo_page2{
+
+                font-size: 0.5rem;
+            }
+
+            .apresentacao__conteudo__Subtitulo{
+
+                font-size: 0.5rem;
+
+            }
+
+            .apresentacao__conteudo__titulo_page3{ 
+                font-size: 0.5rem;
+
+            }
+
+            .decodificador_link{
+                font-size: 0.5rem;
+            }
+
+        }
+
+    }
 }
