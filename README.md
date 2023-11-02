@@ -11,5 +11,5 @@ Site
 
 Imagem Previa 
 ---
-<img src="assets/deco_page3_1.JPG">
+<img src="assets/print_portifolio.JPG">
 
