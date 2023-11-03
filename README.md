@@ -2,7 +2,7 @@
  Status : Em desenvolvimento
  
 ````
-html - css - JavaScript
+html - css
 
 ````
 Site 
