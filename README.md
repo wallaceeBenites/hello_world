@@ -1,8 +1,12 @@
-<h1> Portfolio </h1>
- Status : Em desenvolvimento
- 
+# Portfolio | Meu primeiro Projeto / 2023
+
+---
+## Sobre o Projeto
+- Primeiro projeto que criei, não é um portifolio de verdade atualmente é um registro de quando eu iniciei meus estudos em  programação
+- Inicio de tudo
+ ## Tecnologias Utilizadas
 ````
-html - css
+HTML - CSS 
 
 ````
 Site 
@@ -12,4 +16,6 @@ Site
 Imagem Previa 
 ---
 <img src="assets/print_portifolio.JPG">
+
+
 
