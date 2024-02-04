@@ -2,7 +2,7 @@
 
 ---
 ## Sobre o Projeto
-- Primeiro projeto que criei, não é um portifolio de verdade atualmente é um registro de quando eu iniciei meus estudos em  programação
+- Primeiro projeto que criei, não é um portifolio de verdade atualmente, é um registro de quando eu iniciei meus estudos em  programação
 - Inicio de tudo
  ## Tecnologias Utilizadas
 ````
